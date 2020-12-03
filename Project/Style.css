@@ -1,0 +1,146 @@
+body {
+background-color: #FFFFFF;
+background-image:repeating-linear-gradient(#0033A0, #FFFFFF);
+font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  text-align: center;
+  color: #0033A0;
+}
+
+header a{
+text-decoration: none;
+color: #0033A0;
+}
+
+nav {
+    font-weight: bold;
+    padding: 0;
+    font-size: 100%;
+    text-align: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: #0033A0;
+}
+
+nav ul{
+  list-style-type: none;
+  margin: 0;
+  padding-left: 0px;
+  font-size: 1.2em;
+  border-bottom: 1px #000033;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  display: block;
+  padding-left: 1em;
+  padding-right: 1em;
+
+}
+main table {
+  text-align: left;
+}
+
+main ul {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 0px;
+  text-align: center;
+}
+
+h2 {
+color:#0033A0;
+text-align: center;
+}
+
+h3 {
+color:#ffC600;
+text-align: center;
+}
+
+h4 {
+color:#0033A0;
+text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+footer {
+  font-size: 75%;
+  font-family: Georgia, Times, serif;
+  font-weight: bold;
+  text-align: center;
+  padding: 2em;
+}
+
+.Pi {
+  font-weight: bold;
+  color: #0033A0;
+}
+
+#wrapper {
+  background-color: #FFFFFF;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+	min-width: 960px;
+  max-width: 2048px;
+  padding: 2em;
+  box-shadow: 3px 3px 3px;
+}
+
+table {
+  border: 2px #3399CC;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+td, th {
+  padding: 0.5em;
+  border: 2px #3399CC;
+}
+
+.text {
+  text-align: left;
+}
+
+td {
+  text-align: center;
+}
+
+tr:nth-child(odd) {
+  background-color: #F5FAFC;
+}
+
+form {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+input, textarea {
+  margin-bottom: .5em;
+}
+
+#Officers {
+  text-align: justify;
+}
+
+#Officers img {
+  display: block;
+  margin: 0 auto;
+}
+
+#MeetBrothers img {
+  display: flex;
+  margin: 0 auto;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+  <link rel="stylesheet" href="pacific.css">
+  <title> Pacific Trails Resort :: Reservations </title>
+  <style>
+  h1{
+    margin-bottom: 0;
+  }
+  </style>
+</head>
+<body class="content">
+  <div id="wrapper">
+<header>
+  <h1><a href="Index.html">Pacific Trails Resort</a></h1>
+  <meta name="description" content"Here you can book your reservation to stay at the Pacific Trails Resort">
+</header>
+<nav>
+  <ul>
+    <li><a href="Index.html">Home</a></li>
+    <li><a href="Yurts.html">Yurts</a></li>
+    <li><a href="Activites.html">Activites</a></li>
+    <li><a href="Reservations.html">Reservations</a></li>
+  </ul>
+</nav>
+    <main>
+      <h2> Reservations at Pacific Trails </h2>
+      <h3> Contact Us Today </h3>
+      <p>Required fields are marked with an asterisk *</p>
+      <form method="post" action="https://webdevbasics.net/scripts/pacific.php">
+        <label for="FirstName">*First Name:</label>
+        <input type="text" name="myFName" id="myFName" required="required" placeholder="your first name">
+        <label for="LastName">*Last Name:</label>
+        <input type="text" name="myLName" id="myLName" required="required" placeholder="your last name">
+        <label for="Email">*E-Mail Address:</label>
+        <input type="email" name="myEmail" id="myEmail" required="required" placeholder="your e-mail address">
+        <label for="PhoneNumber">Phone Number:</label>
+        <input type="tel" name="myPhone" id="myPhone" placeholder="your phone number">
+        <label for="ArrivalDate">Arrival Date:</label>
+        <input type="date" name="myArrivalDate" id="myArrivalDate" placeholder="your arrival date">
+        <label for="ArrivalDate">Arrival Date:</label>
+        <input type="number" min="1" max="14" name="myNights" id="myNights" placeholder="your nights">
+        <label for="myComments">*Comments:</label>
+        <textarea name="myComments" id="myComments" required="required" rows="2" cols="30" placeholder="your comments here">
+        </textarea>
+        <input type="submit" value="Submit">
+      </form>
+      <p> <span class="resort">Pacific Trails Resort</span><br>12010 Pacific Trails Road<br>Zephy, CA 95555 <br><br>888-555-5555 </p>
+    </main>
+  <footer>
+    <p><small> <i> Copyright © 2020 Pacific Trails Resort</i><br> </small></p>
+    <p><small> <a href='mailto:ian@lockwood.com'>ian@lockwood.com</a> </small></p>
+  </footer>
+</div>
+</body>
+</html>
